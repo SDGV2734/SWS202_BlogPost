@@ -3,16 +3,13 @@
         "name": "Home",
         "href": "/"
     },
-    {
-        "name": "Donation",
-        "href": "/donation"
-    },
+
     {
         "name": "Blog",
         "href": "/blog"
     },
     {
-        "name": "Snippets",
+        "name": "Notes",
         "href": "/snippets"
     }
 ]
