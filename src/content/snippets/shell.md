@@ -41,6 +41,6 @@ Additionally, command-line interfaces (CLI) that run as additional terminals wit
 Additionally, command-line interfaces (CLI) that run as additional terminals within one terminal are like having multiple virtual receptionist desks open on your screen simultaneously. Each one allows you to send different instructions to the server room independently, but through the same main interface. In essence, the terminal serves as your gateway to communicate with and control the core operations managed by the shell.
 
 ![image.png](../images/snippets/Shell/image_1.png)
-# Shell
+## Shell
 
 The most commonly used shell in Linux is the Bourne-Again Shell (BASH), and is part of the GNU project. Everything we do through the GUI we can do with the shell. The shell gives us many more possibilities to interact with programs and processes to get information faster. Besides, many processes can be easily automated with smaller or larger scripts that make manual work much easier. Besides Bash, there also exist other shells like Tcsh/Csh, Ksh, Zsh, Fish shell and others.

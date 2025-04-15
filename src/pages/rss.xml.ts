@@ -8,9 +8,9 @@ export async function GET(context: APIContext) {
         (a, b) => Number(new Date(b.data.date)) - Number(new Date(a.data.date))
     );
     return rss({
-        title: '0xDedinfosec Blogs',
+        title: 'GLICHER Blog',
         description:
-            'I post My Hackthebox writeups and other InfoSec findings here.',
+            'I post My Hackthebox writeups and Notes related to Security here.',
         site: context.site || 'https://0xdedinfosec.vercel.app',
         items: sortedPosts.map((post) => ({
             title: post.data.title,
