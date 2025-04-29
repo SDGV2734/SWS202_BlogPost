@@ -5,7 +5,7 @@ description: It is crucial to be able to find the files and folders we need. Onc
 image: ../images/snippets/Find_Files_and_Directories.webp
 ---
 
-# Find Files and Directories
+## Find Files and Directories
 
 It is crucial to be able to find the files and folders we need. Once we have gained access to a Linux based system, it will be essential to find configuration files, scripts created by users or the administrator, and other files and folders. We do not have to manually browse through every single folder and check when modified for the last time. There are some tools we can use to make this work easier.
 
@@ -13,7 +13,7 @@ It is crucial to be able to find the files and folders we need. Once we have gai
 
 One of the common tools is which. This tool returns the path to the file or link that should be executed. This allows us to determine if specific programs, like cURL, netcat, wget, python, gcc, are available on the operating system. Let us use it to search for Python in our interactive instance.
 
-![image.png](../images/snippets/Find_Files_and_Directories%20/image.png)
+![image.png](../images/snippets/Find_Files_and_Directories/image.png)
 
 If the program we search for does not exist, no results will be displayed.
 
@@ -23,11 +23,11 @@ Another handy tool is find. Besides the function to find files and folders, this
 
 **Syntax- Find**
 
-![image.png](../images/snippets/Find_Files_and_Directories%20/image_1.png)
+![image.png](../images/snippets/Find_Files_and_Directories/image_1.png)
 
 Let us look at an example of what such a command with multiple options would look like.
 
-![image.png](../images/snippets/Find_Files_and_Directories%20/image_2.png)
+![image.png](../images/snippets/Find_Files_and_Directories/image_2.png)
 
 | Option  | Description  |
 | --- | --- |
@@ -40,11 +40,11 @@ Let us look at an example of what such a command with multiple options would loo
 
 It will take much time to search through the whole system for our files and directories to perform many different searches. The command locate offers us a quicker way to search through the system. In contrast to the find command, locate works with a local database that contains all information about existing files and folders. We can update this database with the following command.
 
-![image.png](../images/snippets/Find_Files_and_Directories%20/image_3.png)
+![image.png](../images/snippets/Find_Files_and_Directories/image_3.png)
 
 If we now search for all files with the ".conf" extension, you will find that this search produces results much faster than
 using find.
 
-![image.png](../images/snippets/Find_Files_and_Directories%20/image_4.png)
+![image.png](../images/snippets/Find_Files_and_Directories/image_4.png)
 
 However, this tool does not have as many filter options that we can use. So it is always worth considering whether we can use the locate command or instead use the find command. It always depends on what we are looking for.
